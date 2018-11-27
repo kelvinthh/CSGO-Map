@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8056"
-	"mapversion" "69"
+	"mapversion" "71"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "8"
+	"nGridSpacing" "64"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "69"
+	"mapversion" "71"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -260,7 +260,7 @@ world
 		side
 		{
 			"id" "2329"
-			"plane" "(-640 -1024 704) (-640 -256 704) (960 -256 704)"
+			"plane" "(-640 -512 704) (-640 -256 704) (960 -256 704)"
 			"material" "DE_CBBLE/ROOF_ALT/ROOF_A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -271,7 +271,7 @@ world
 		side
 		{
 			"id" "2328"
-			"plane" "(-640 -256 -64) (-640 -1024 -64) (960 -1024 -64)"
+			"plane" "(-640 -256 -64) (-640 -512 -64) (960 -512 -64)"
 			"material" "BUILDINGS/OFFICE_WALL_BRICK_EDGE"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -282,7 +282,7 @@ world
 		side
 		{
 			"id" "2327"
-			"plane" "(-640 -1024 -64) (-640 -256 -64) (-640 -256 704)"
+			"plane" "(-640 -512 -64) (-640 -256 -64) (-640 -256 704)"
 			"material" "BUILDINGS/OFFICE_WALL_BRICK_EDGE"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -293,7 +293,7 @@ world
 		side
 		{
 			"id" "2326"
-			"plane" "(960 -256 -64) (960 -1024 -64) (960 -1024 704)"
+			"plane" "(960 -256 -64) (960 -512 -64) (960 -512 704)"
 			"material" "BUILDINGS/OFFICE_WALL_BRICK_EDGE"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -315,7 +315,7 @@ world
 		side
 		{
 			"id" "2324"
-			"plane" "(960 -1024 -64) (-640 -1024 -64) (-640 -1024 704)"
+			"plane" "(960 -512 -64) (-640 -512 -64) (-640 -512 704)"
 			"material" "BUILDINGS/OFFICE_WALL_BRICK_EDGE"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -10336,21 +10336,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "2942"
-	"classname" "info_player_terrorist"
-	"angles" "0 0 0"
-	"enabled" "1"
-	"origin" "-1339.62 1180.1 17.641"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 -768]"
 	}
 }
 entity
