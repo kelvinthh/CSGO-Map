@@ -7206,3 +7206,1685 @@ Total triangle count: 5256
 Writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
 MSG_FILEWRITE - Filesystem was asked to write to 'd:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp', but we don't own that location. Allowing.
 18 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.vmf
+Map revision 215
+Patching WVT material: maps/project_new/concrete/hr_c/hr_conc_a_wvt_patch
+Patching WVT material: maps/project_new/nature/blend_oldleavesdirtleaves01_wvt_patch
+Patching WVT material: maps/project_new/concrete/blend_blacktop_05_wvt_patch
+Patching WVT material: maps/project_new/nature/infblendgrassdirt001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+done (0)
+writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (96702 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 415 texinfos to 268
+Reduced 90 texdatas to 77 (2951 bytes to 2572)
+Writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp', but we don't own that location. Allowing.
+2 seconds elapsed
+
+
+
+8 threads
+reading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+reading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.prt
+ 552 portalclusters
+1603 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 12420 visible clusters (0.00%)
+Total clusters visible: 255872
+Average clusters visible: 463
+Building PAS...
+Average clusters audible: 552
+visdatasize:80773  compressed from 79488
+writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+1934 faces
+1798653 square feet [259006144.00 square inches]
+22 Displacements
+12617 Square Feet [1816954.75 Square Inches]
+1934 patches before subdivision
+54154 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2704253, max 459
+transfer lists:  20.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(250316, 150178, 108876)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(69906, 22195, 10300)
+Build Patch/Sample Hash Table(s).....Done<0.0128 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  10/1024          480/49152    ( 1.0%) 
+brushes                254/8192         3048/98304    ( 3.1%) 
+brushsides            1570/81920       12560/655360   ( 1.9%) 
+planes                 832/65536       16640/1310720  ( 1.3%) 
+vertexes              2766/65536       33192/786432   ( 4.2%) 
+nodes                 1232/65536       39424/2097152  ( 1.9%) 
+texinfos               268/12288       19296/884736   ( 2.2%) 
+texdata                 77/4096         2464/131072   ( 1.9%) 
+dispinfos               22/0            3872/0        ( 0.0%) 
+disp_verts            1782/0           35640/0        ( 0.0%) 
+disp_tris             2816/0            5632/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples       35248/0           35248/0        ( 0.0%) 
+faces                 1934/65536      108304/3670016  ( 3.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              893/65536       50008/3670016  ( 1.4%) 
+facebrushes            114/0             228/0        ( 0.0%) 
+facebrushlists        1934/0            7736/0        ( 0.0%) 
+leaves                1243/65536       39776/2097152  ( 1.9%) 
+leaffaces             2095/65536        4190/131072   ( 3.2%) 
+leafbrushes            783/65536        1566/131072   ( 1.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            12733/512000      50932/2048000  ( 2.5%) 
+edges                 7044/256000      28176/1024000  ( 2.8%) 
+LDR worldlights          8/8192          800/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            163/32768        1630/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2553/65536        5106/131072   ( 3.9%) 
+cubemapsamples           3/1024           48/16384    ( 0.3%) 
+overlays                40/1024        14080/360448   ( 3.9%) 
+LDR lightdata         [variable]     2835740/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       80773/16777216 ( 0.5%) 
+entdata               [variable]       10159/393216   ( 2.6%) 
+LDR ambient table     1243/65536        4972/262144   ( 1.9%) 
+HDR ambient table     1243/65536        4972/262144   ( 1.9%) 
+LDR leaf ambient      7472/65536      209216/1835008  (11.4%) 
+HDR leaf ambient      1243/65536       34804/1835008  ( 1.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/20302    ( 0.0%) 
+pakfile               [variable]     3156953/0        ( 0.0%) 
+physics               [variable]       96702/4194304  ( 2.3%) 
+physics terrain       [variable]        2722/1048576  ( 0.3%) 
+
+Level flags = 7d
+
+Total triangle count: 5293
+Writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp', but we don't own that location. Allowing.
+26 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.vmf
+Map revision 216
+Patching WVT material: maps/project_new/concrete/hr_c/hr_conc_a_wvt_patch
+Patching WVT material: maps/project_new/nature/blend_oldleavesdirtleaves01_wvt_patch
+Patching WVT material: maps/project_new/concrete/blend_blacktop_05_wvt_patch
+Patching WVT material: maps/project_new/nature/infblendgrassdirt001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+done (0)
+writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (96702 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 415 texinfos to 268
+Reduced 90 texdatas to 77 (2951 bytes to 2572)
+Writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp', but we don't own that location. Allowing.
+2 seconds elapsed
+
+
+
+8 threads
+reading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+reading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.prt
+ 552 portalclusters
+1603 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 12420 visible clusters (0.00%)
+Total clusters visible: 255872
+Average clusters visible: 463
+Building PAS...
+Average clusters audible: 552
+visdatasize:80773  compressed from 79488
+writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+1934 faces
+1798653 square feet [259006144.00 square inches]
+22 Displacements
+12617 Square Feet [1816954.75 Square Inches]
+1934 patches before subdivision
+54154 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2704253, max 459
+transfer lists:  20.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(249419, 149883, 108876)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(69769, 22163, 10300)
+Build Patch/Sample Hash Table(s).....Done<0.0123 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  10/1024          480/49152    ( 1.0%) 
+brushes                254/8192         3048/98304    ( 3.1%) 
+brushsides            1570/81920       12560/655360   ( 1.9%) 
+planes                 832/65536       16640/1310720  ( 1.3%) 
+vertexes              2766/65536       33192/786432   ( 4.2%) 
+nodes                 1232/65536       39424/2097152  ( 1.9%) 
+texinfos               268/12288       19296/884736   ( 2.2%) 
+texdata                 77/4096         2464/131072   ( 1.9%) 
+dispinfos               22/0            3872/0        ( 0.0%) 
+disp_verts            1782/0           35640/0        ( 0.0%) 
+disp_tris             2816/0            5632/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples       35248/0           35248/0        ( 0.0%) 
+faces                 1934/65536      108304/3670016  ( 3.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              893/65536       50008/3670016  ( 1.4%) 
+facebrushes            114/0             228/0        ( 0.0%) 
+facebrushlists        1934/0            7736/0        ( 0.0%) 
+leaves                1243/65536       39776/2097152  ( 1.9%) 
+leaffaces             2095/65536        4190/131072   ( 3.2%) 
+leafbrushes            783/65536        1566/131072   ( 1.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            12733/512000      50932/2048000  ( 2.5%) 
+edges                 7044/256000      28176/1024000  ( 2.8%) 
+LDR worldlights          8/8192          800/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            163/32768        1630/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2553/65536        5106/131072   ( 3.9%) 
+cubemapsamples           3/1024           48/16384    ( 0.3%) 
+overlays                40/1024        14080/360448   ( 3.9%) 
+LDR lightdata         [variable]     2835740/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       80773/16777216 ( 0.5%) 
+entdata               [variable]       10243/393216   ( 2.6%) 
+LDR ambient table     1243/65536        4972/262144   ( 1.9%) 
+HDR ambient table     1243/65536        4972/262144   ( 1.9%) 
+LDR leaf ambient      7473/65536      209244/1835008  (11.4%) 
+HDR leaf ambient      1243/65536       34804/1835008  ( 1.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/20302    ( 0.0%) 
+pakfile               [variable]     3156953/0        ( 0.0%) 
+physics               [variable]       96702/4194304  ( 2.3%) 
+physics terrain       [variable]        2722/1048576  ( 0.3%) 
+
+Level flags = 7d
+
+Total triangle count: 5293
+Writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp', but we don't own that location. Allowing.
+24 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.vmf
+Map revision 217
+Patching WVT material: maps/project_new/concrete/hr_c/hr_conc_a_wvt_patch
+Patching WVT material: maps/project_new/nature/blend_oldleavesdirtleaves01_wvt_patch
+Patching WVT material: maps/project_new/concrete/blend_blacktop_05_wvt_patch
+Patching WVT material: maps/project_new/nature/infblendgrassdirt001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+done (0)
+writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (96702 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 415 texinfos to 268
+Reduced 90 texdatas to 77 (2951 bytes to 2572)
+Writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp', but we don't own that location. Allowing.
+2 seconds elapsed
+
+
+
+8 threads
+reading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+reading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.prt
+ 552 portalclusters
+1603 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 12420 visible clusters (0.00%)
+Total clusters visible: 255872
+Average clusters visible: 463
+Building PAS...
+Average clusters audible: 552
+visdatasize:80773  compressed from 79488
+writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+1934 faces
+1798653 square feet [259006144.00 square inches]
+22 Displacements
+12617 Square Feet [1816954.75 Square Inches]
+1934 patches before subdivision
+54154 patches after subdivision
+9 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2704253, max 459
+transfer lists:  20.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(249465, 149898, 108876)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(69776, 22164, 10300)
+Build Patch/Sample Hash Table(s).....Done<0.0125 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  10/1024          480/49152    ( 1.0%) 
+brushes                254/8192         3048/98304    ( 3.1%) 
+brushsides            1570/81920       12560/655360   ( 1.9%) 
+planes                 832/65536       16640/1310720  ( 1.3%) 
+vertexes              2766/65536       33192/786432   ( 4.2%) 
+nodes                 1232/65536       39424/2097152  ( 1.9%) 
+texinfos               268/12288       19296/884736   ( 2.2%) 
+texdata                 77/4096         2464/131072   ( 1.9%) 
+dispinfos               22/0            3872/0        ( 0.0%) 
+disp_verts            1782/0           35640/0        ( 0.0%) 
+disp_tris             2816/0            5632/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples       35248/0           35248/0        ( 0.0%) 
+faces                 1934/65536      108304/3670016  ( 3.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              893/65536       50008/3670016  ( 1.4%) 
+facebrushes            114/0             228/0        ( 0.0%) 
+facebrushlists        1934/0            7736/0        ( 0.0%) 
+leaves                1243/65536       39776/2097152  ( 1.9%) 
+leaffaces             2095/65536        4190/131072   ( 3.2%) 
+leafbrushes            783/65536        1566/131072   ( 1.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            12733/512000      50932/2048000  ( 2.5%) 
+edges                 7044/256000      28176/1024000  ( 2.8%) 
+LDR worldlights          9/8192          900/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            163/32768        1630/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2553/65536        5106/131072   ( 3.9%) 
+cubemapsamples           3/1024           48/16384    ( 0.3%) 
+overlays                40/1024        14080/360448   ( 3.9%) 
+LDR lightdata         [variable]     2835740/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       80773/16777216 ( 0.5%) 
+entdata               [variable]       10565/393216   ( 2.7%) 
+LDR ambient table     1243/65536        4972/262144   ( 1.9%) 
+HDR ambient table     1243/65536        4972/262144   ( 1.9%) 
+LDR leaf ambient      7473/65536      209244/1835008  (11.4%) 
+HDR leaf ambient      1243/65536       34804/1835008  ( 1.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/20302    ( 0.0%) 
+pakfile               [variable]     3156953/0        ( 0.0%) 
+physics               [variable]       96702/4194304  ( 2.3%) 
+physics terrain       [variable]        2722/1048576  ( 0.3%) 
+
+Level flags = 7d
+
+Total triangle count: 5293
+Writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp', but we don't own that location. Allowing.
+27 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.vmf
+Map revision 229
+Patching WVT material: maps/project_new/nature/infblendgrassdirt001a_wvt_patch
+Patching WVT material: maps/project_new/concrete/hr_c/hr_conc_a_wvt_patch
+Patching WVT material: maps/project_new/nature/blend_oldleavesdirtleaves01_wvt_patch
+Patching WVT material: maps/project_new/concrete/blend_blacktop_05_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+done (0)
+writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (106062 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 493 texinfos to 333
+Reduced 93 texdatas to 80 (3037 bytes to 2658)
+Writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp', but we don't own that location. Allowing.
+2 seconds elapsed
+
+
+
+8 threads
+reading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+reading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.prt
+ 594 portalclusters
+1783 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 11063 visible clusters (0.00%)
+Total clusters visible: 316515
+Average clusters visible: 532
+Building PAS...
+Average clusters audible: 594
+visdatasize:94064  compressed from 95040
+writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+2029 faces
+1790514 square feet [257834080.00 square inches]
+28 Displacements
+31174 Square Feet [4489083.00 Square Inches]
+2029 patches before subdivision
+54077 patches after subdivision
+9 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2651521, max 453
+transfer lists:  20.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(232908, 137864, 98780)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(63087, 19807, 9297)
+Build Patch/Sample Hash Table(s).....Done<0.0150 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  10/1024          480/49152    ( 1.0%) 
+brushes                280/8192         3360/98304    ( 3.4%) 
+brushsides            1730/81920       13840/655360   ( 2.1%) 
+planes                 906/65536       18120/1310720  ( 1.4%) 
+vertexes              2893/65536       34716/786432   ( 4.4%) 
+nodes                 1305/65536       41760/2097152  ( 2.0%) 
+texinfos               333/12288       23976/884736   ( 2.7%) 
+texdata                 80/4096         2560/131072   ( 2.0%) 
+dispinfos               28/0            4928/0        ( 0.0%) 
+disp_verts            2268/0           45360/0        ( 0.0%) 
+disp_tris             3584/0            7168/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples       81320/0           81320/0        ( 0.0%) 
+faces                 2029/65536      113624/3670016  ( 3.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              987/65536       55272/3670016  ( 1.5%) 
+facebrushes            108/0             216/0        ( 0.0%) 
+facebrushlists        2029/0            8116/0        ( 0.0%) 
+leaves                1316/65536       42112/2097152  ( 2.0%) 
+leaffaces             2208/65536        4416/131072   ( 3.4%) 
+leafbrushes            849/65536        1698/131072   ( 1.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            13567/512000      54268/2048000  ( 2.6%) 
+edges                 7523/256000      30092/1024000  ( 2.9%) 
+LDR worldlights          9/8192          900/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            150/32768        1500/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2322/65536        4644/131072   ( 3.5%) 
+cubemapsamples           3/1024           48/16384    ( 0.3%) 
+overlays                42/1024        14784/360448   ( 4.1%) 
+LDR lightdata         [variable]     2950844/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       94064/16777216 ( 0.6%) 
+entdata               [variable]       10682/393216   ( 2.7%) 
+LDR ambient table     1316/65536        5264/262144   ( 2.0%) 
+HDR ambient table     1316/65536        5264/262144   ( 2.0%) 
+LDR leaf ambient      7807/65536      218596/1835008  (11.9%) 
+HDR leaf ambient      1316/65536       36848/1835008  ( 2.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/21874    ( 0.0%) 
+pakfile               [variable]     3356569/0        ( 0.0%) 
+physics               [variable]      106062/4194304  ( 2.5%) 
+physics terrain       [variable]        3096/1048576  ( 0.3%) 
+
+Level flags = 7d
+
+Total triangle count: 5560
+Writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp', but we don't own that location. Allowing.
+27 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.vmf
+Map revision 230
+Patching WVT material: maps/project_new/nature/infblendgrassdirt001a_wvt_patch
+Patching WVT material: maps/project_new/concrete/hr_c/hr_conc_a_wvt_patch
+Patching WVT material: maps/project_new/nature/blend_oldleavesdirtleaves01_wvt_patch
+Patching WVT material: maps/project_new/concrete/blend_blacktop_05_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+done (0)
+writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (106062 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 493 texinfos to 333
+Reduced 93 texdatas to 80 (3037 bytes to 2658)
+Writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp', but we don't own that location. Allowing.
+2 seconds elapsed
+
+
+
+8 threads
+reading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+reading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.prt
+ 594 portalclusters
+1783 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 11063 visible clusters (0.00%)
+Total clusters visible: 316515
+Average clusters visible: 532
+Building PAS...
+Average clusters audible: 594
+visdatasize:94064  compressed from 95040
+writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+2029 faces
+1790514 square feet [257834080.00 square inches]
+28 Displacements
+31174 Square Feet [4489083.00 Square Inches]
+2029 patches before subdivision
+54077 patches after subdivision
+9 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2651027, max 454
+transfer lists:  20.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(232970, 137893, 98796)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(63107, 19813, 9299)
+Build Patch/Sample Hash Table(s).....Done<0.0124 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  10/1024          480/49152    ( 1.0%) 
+brushes                280/8192         3360/98304    ( 3.4%) 
+brushsides            1730/81920       13840/655360   ( 2.1%) 
+planes                 906/65536       18120/1310720  ( 1.4%) 
+vertexes              2893/65536       34716/786432   ( 4.4%) 
+nodes                 1305/65536       41760/2097152  ( 2.0%) 
+texinfos               333/12288       23976/884736   ( 2.7%) 
+texdata                 80/4096         2560/131072   ( 2.0%) 
+dispinfos               28/0            4928/0        ( 0.0%) 
+disp_verts            2268/0           45360/0        ( 0.0%) 
+disp_tris             3584/0            7168/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples       81320/0           81320/0        ( 0.0%) 
+faces                 2029/65536      113624/3670016  ( 3.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              987/65536       55272/3670016  ( 1.5%) 
+facebrushes            108/0             216/0        ( 0.0%) 
+facebrushlists        2029/0            8116/0        ( 0.0%) 
+leaves                1316/65536       42112/2097152  ( 2.0%) 
+leaffaces             2208/65536        4416/131072   ( 3.4%) 
+leafbrushes            849/65536        1698/131072   ( 1.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            13567/512000      54268/2048000  ( 2.6%) 
+edges                 7523/256000      30092/1024000  ( 2.9%) 
+LDR worldlights          9/8192          900/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            150/32768        1500/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2322/65536        4644/131072   ( 3.5%) 
+cubemapsamples           3/1024           48/16384    ( 0.3%) 
+overlays                42/1024        14784/360448   ( 4.1%) 
+LDR lightdata         [variable]     2950844/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       94064/16777216 ( 0.6%) 
+entdata               [variable]       10682/393216   ( 2.7%) 
+LDR ambient table     1316/65536        5264/262144   ( 2.0%) 
+HDR ambient table     1316/65536        5264/262144   ( 2.0%) 
+LDR leaf ambient      7807/65536      218596/1835008  (11.9%) 
+HDR leaf ambient      1316/65536       36848/1835008  ( 2.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/21876    ( 0.0%) 
+pakfile               [variable]     3356569/0        ( 0.0%) 
+physics               [variable]      106062/4194304  ( 2.5%) 
+physics terrain       [variable]        3096/1048576  ( 0.3%) 
+
+Level flags = 7d
+
+Total triangle count: 5560
+Writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp', but we don't own that location. Allowing.
+28 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.vmf
+Map revision 239
+Patching WVT material: maps/project_new/nature/infblendgrassdirt001a_wvt_patch
+Patching WVT material: maps/project_new/concrete/hr_c/hr_conc_a_wvt_patch
+Patching WVT material: maps/project_new/nature/blend_oldleavesdirtleaves01_wvt_patch
+Patching WVT material: maps/project_new/concrete/blend_blacktop_05_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+done (0)
+writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (102997 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 494 texinfos to 343
+Reduced 99 texdatas to 85 (3357 bytes to 2943)
+Writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp', but we don't own that location. Allowing.
+2 seconds elapsed
+
+
+
+8 threads
+reading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+reading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.prt
+ 597 portalclusters
+1786 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 9445 visible clusters (0.00%)
+Total clusters visible: 321250
+Average clusters visible: 538
+Building PAS...
+Average clusters audible: 597
+visdatasize:94522  compressed from 95520
+writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+2070 faces
+1794070 square feet [258346112.00 square inches]
+28 Displacements
+31174 Square Feet [4489083.00 Square Inches]
+2070 patches before subdivision
+55148 patches after subdivision
+9 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2750282, max 469
+transfer lists:  21.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(242353, 147710, 108301)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(65435, 22200, 11391)
+Build Patch/Sample Hash Table(s).....Done<0.0132 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  10/1024          480/49152    ( 1.0%) 
+brushes                282/8192         3384/98304    ( 3.4%) 
+brushsides            1776/81920       14208/655360   ( 2.2%) 
+planes                 904/65536       18080/1310720  ( 1.4%) 
+vertexes              2979/65536       35748/786432   ( 4.5%) 
+nodes                 1340/65536       42880/2097152  ( 2.0%) 
+texinfos               343/12288       24696/884736   ( 2.8%) 
+texdata                 85/4096         2720/131072   ( 2.1%) 
+dispinfos               28/0            4928/0        ( 0.0%) 
+disp_verts            2268/0           45360/0        ( 0.0%) 
+disp_tris             3584/0            7168/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples       81320/0           81320/0        ( 0.0%) 
+faces                 2070/65536      115920/3670016  ( 3.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1001/65536       56056/3670016  ( 1.5%) 
+facebrushes            190/0             380/0        ( 0.0%) 
+facebrushlists        2070/0            8280/0        ( 0.0%) 
+leaves                1351/65536       43232/2097152  ( 2.1%) 
+leaffaces             2248/65536        4496/131072   ( 3.4%) 
+leafbrushes            772/65536        1544/131072   ( 1.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            13827/512000      55308/2048000  ( 2.7%) 
+edges                 7692/256000      30768/1024000  ( 3.0%) 
+LDR worldlights          9/8192          900/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            150/32768        1500/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2325/65536        4650/131072   ( 3.5%) 
+cubemapsamples           3/1024           48/16384    ( 0.3%) 
+overlays                42/1024        14784/360448   ( 4.1%) 
+LDR lightdata         [variable]     3069760/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       94522/16777216 ( 0.6%) 
+entdata               [variable]       10819/393216   ( 2.8%) 
+LDR ambient table     1351/65536        5404/262144   ( 2.1%) 
+HDR ambient table     1351/65536        5404/262144   ( 2.1%) 
+LDR leaf ambient      7843/65536      219604/1835008  (12.0%) 
+HDR leaf ambient      1351/65536       37828/1835008  ( 2.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/21882    ( 0.0%) 
+pakfile               [variable]     3357718/0        ( 0.0%) 
+physics               [variable]      102997/4194304  ( 2.5%) 
+physics terrain       [variable]        3096/1048576  ( 0.3%) 
+
+Level flags = 7d
+
+Total triangle count: 5694
+Writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp', but we don't own that location. Allowing.
+24 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.vmf
+Map revision 241
+Patching WVT material: maps/project_new/nature/infblendgrassdirt001a_wvt_patch
+Patching WVT material: maps/project_new/concrete/hr_c/hr_conc_a_wvt_patch
+Patching WVT material: maps/project_new/nature/blend_oldleavesdirtleaves01_wvt_patch
+Patching WVT material: maps/project_new/concrete/blend_blacktop_05_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+done (0)
+writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (113692 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 513 texinfos to 344
+Reduced 102 texdatas to 88 (3430 bytes to 3016)
+Writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp', but we don't own that location. Allowing.
+2 seconds elapsed
+
+
+
+8 threads
+reading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+reading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.prt
+ 597 portalclusters
+1786 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 9445 visible clusters (0.00%)
+Total clusters visible: 321250
+Average clusters visible: 538
+Building PAS...
+Average clusters audible: 597
+visdatasize:94522  compressed from 95520
+writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+2070 faces
+1794070 square feet [258346112.00 square inches]
+28 Displacements
+31174 Square Feet [4489083.00 Square Inches]
+2070 patches before subdivision
+55148 patches after subdivision
+9 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2750282, max 469
+transfer lists:  21.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(242353, 147709, 108300)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(65435, 22199, 11390)
+Build Patch/Sample Hash Table(s).....Done<0.0131 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  10/1024          480/49152    ( 1.0%) 
+brushes                307/8192         3684/98304    ( 3.7%) 
+brushsides            1953/81920       15624/655360   ( 2.4%) 
+planes                1050/65536       21000/1310720  ( 1.6%) 
+vertexes              2979/65536       35748/786432   ( 4.5%) 
+nodes                 1340/65536       42880/2097152  ( 2.0%) 
+texinfos               344/12288       24768/884736   ( 2.8%) 
+texdata                 88/4096         2816/131072   ( 2.1%) 
+dispinfos               28/0            4928/0        ( 0.0%) 
+disp_verts            2268/0           45360/0        ( 0.0%) 
+disp_tris             3584/0            7168/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples       81320/0           81320/0        ( 0.0%) 
+faces                 2070/65536      115920/3670016  ( 3.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1001/65536       56056/3670016  ( 1.5%) 
+facebrushes            190/0             380/0        ( 0.0%) 
+facebrushlists        2070/0            8280/0        ( 0.0%) 
+leaves                1351/65536       43232/2097152  ( 2.1%) 
+leaffaces             2248/65536        4496/131072   ( 3.4%) 
+leafbrushes            919/65536        1838/131072   ( 1.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            13827/512000      55308/2048000  ( 2.7%) 
+edges                 7692/256000      30768/1024000  ( 3.0%) 
+LDR worldlights          9/8192          900/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            150/32768        1500/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2325/65536        4650/131072   ( 3.5%) 
+cubemapsamples           3/1024           48/16384    ( 0.3%) 
+overlays                42/1024        14784/360448   ( 4.1%) 
+LDR lightdata         [variable]     3069880/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       94522/16777216 ( 0.6%) 
+entdata               [variable]       10682/393216   ( 2.7%) 
+LDR ambient table     1351/65536        5404/262144   ( 2.1%) 
+HDR ambient table     1351/65536        5404/262144   ( 2.1%) 
+LDR leaf ambient      7843/65536      219604/1835008  (12.0%) 
+HDR leaf ambient      1351/65536       37828/1835008  ( 2.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/21882    ( 0.0%) 
+pakfile               [variable]     3357718/0        ( 0.0%) 
+physics               [variable]      113692/4194304  ( 2.7%) 
+physics terrain       [variable]        3096/1048576  ( 0.3%) 
+
+Level flags = 7d
+
+Total triangle count: 5694
+Writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp', but we don't own that location. Allowing.
+26 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.vmf
+Map revision 252
+Can't find surfaceprop asphault for material BUILDINGS/BOATHOUSE_SHINGLES01, using default
+Patching WVT material: maps/project_new/nature/infblendgrassdirt001a_wvt_patch
+Patching WVT material: maps/project_new/concrete/hr_c/hr_conc_a_wvt_patch
+Patching WVT material: maps/project_new/nature/blend_oldleavesdirtleaves01_wvt_patch
+Patching WVT material: maps/project_new/concrete/blend_blacktop_05_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+done (0)
+writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (115491 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 520 texinfos to 350
+Reduced 105 texdatas to 91 (3502 bytes to 3088)
+Writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp', but we don't own that location. Allowing.
+2 seconds elapsed
+
+
+
+8 threads
+reading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+reading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.prt
+ 595 portalclusters
+1795 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 9751 visible clusters (0.00%)
+Total clusters visible: 319397
+Average clusters visible: 536
+Building PAS...
+Average clusters audible: 595
+visdatasize:94249  compressed from 95200
+writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+2070 faces
+1793115 square feet [258208640.00 square inches]
+28 Displacements
+31174 Square Feet [4489083.00 Square Inches]
+2070 patches before subdivision
+54894 patches after subdivision
+9 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2731264, max 472
+transfer lists:  20.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(237380, 146296, 108348)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(62918, 21670, 11326)
+Build Patch/Sample Hash Table(s).....Done<0.0128 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  10/1024          480/49152    ( 1.0%) 
+brushes                312/8192         3744/98304    ( 3.8%) 
+brushsides            2026/81920       16208/655360   ( 2.5%) 
+planes                1170/65536       23400/1310720  ( 1.8%) 
+vertexes              2976/65536       35712/786432   ( 4.5%) 
+nodes                 1331/65536       42592/2097152  ( 2.0%) 
+texinfos               350/12288       25200/884736   ( 2.8%) 
+texdata                 91/4096         2912/131072   ( 2.2%) 
+dispinfos               28/0            4928/0        ( 0.0%) 
+disp_verts            2268/0           45360/0        ( 0.0%) 
+disp_tris             3584/0            7168/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples       81320/0           81320/0        ( 0.0%) 
+faces                 2070/65536      115920/3670016  ( 3.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1008/65536       56448/3670016  ( 1.5%) 
+facebrushes            188/0             376/0        ( 0.0%) 
+facebrushlists        2070/0            8280/0        ( 0.0%) 
+leaves                1342/65536       42944/2097152  ( 2.0%) 
+leaffaces             2244/65536        4488/131072   ( 3.4%) 
+leafbrushes            919/65536        1838/131072   ( 1.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            13849/512000      55396/2048000  ( 2.7%) 
+edges                 7700/256000      30800/1024000  ( 3.0%) 
+LDR worldlights          9/8192          900/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            152/32768        1520/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2352/65536        4704/131072   ( 3.6%) 
+cubemapsamples           3/1024           48/16384    ( 0.3%) 
+overlays                45/1024        15840/360448   ( 4.4%) 
+LDR lightdata         [variable]     3081040/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       94249/16777216 ( 0.6%) 
+entdata               [variable]       10794/393216   ( 2.7%) 
+LDR ambient table     1342/65536        5368/262144   ( 2.0%) 
+HDR ambient table     1342/65536        5368/262144   ( 2.0%) 
+LDR leaf ambient      7864/65536      220192/1835008  (12.0%) 
+HDR leaf ambient      1342/65536       37576/1835008  ( 2.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/24722    ( 0.0%) 
+pakfile               [variable]     3589718/0        ( 0.0%) 
+physics               [variable]      115491/4194304  ( 2.8%) 
+physics terrain       [variable]        3096/1048576  ( 0.3%) 
+
+Level flags = 7d
+
+Total triangle count: 5692
+Writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp', but we don't own that location. Allowing.
+26 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.vmf
+Map revision 261
+Can't find surfaceprop asphault for material BUILDINGS/BOATHOUSE_SHINGLES01, using default
+Patching WVT material: maps/project_new/nature/infblendgrassdirt001a_wvt_patch
+Patching WVT material: maps/project_new/concrete/hr_c/hr_conc_a_wvt_patch
+Patching WVT material: maps/project_new/nature/blend_oldleavesdirtleaves01_wvt_patch
+Patching WVT material: maps/project_new/concrete/blend_blacktop_05_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+done (0)
+writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (117603 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 531 texinfos to 357
+Reduced 107 texdatas to 93 (3565 bytes to 3151)
+Writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp', but we don't own that location. Allowing.
+2 seconds elapsed
+
+
+
+8 threads
+reading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+reading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.prt
+ 609 portalclusters
+1846 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 11102 visible clusters (0.00%)
+Total clusters visible: 335368
+Average clusters visible: 550
+Building PAS...
+Average clusters audible: 609
+visdatasize:98936  compressed from 97440
+writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+2091 faces
+1792695 square feet [258148192.00 square inches]
+28 Displacements
+31174 Square Feet [4489083.00 Square Inches]
+2091 patches before subdivision
+54751 patches after subdivision
+9 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2737175, max 473
+transfer lists:  20.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(230653, 144792, 109278)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(60545, 21386, 11726)
+Build Patch/Sample Hash Table(s).....Done<0.0126 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  10/1024          480/49152    ( 1.0%) 
+brushes                318/8192         3816/98304    ( 3.9%) 
+brushsides            2085/81920       16680/655360   ( 2.5%) 
+planes                1244/65536       24880/1310720  ( 1.9%) 
+vertexes              3003/65536       36036/786432   ( 4.6%) 
+nodes                 1348/65536       43136/2097152  ( 2.1%) 
+texinfos               357/12288       25704/884736   ( 2.9%) 
+texdata                 93/4096         2976/131072   ( 2.3%) 
+dispinfos               28/0            4928/0        ( 0.0%) 
+disp_verts            2268/0           45360/0        ( 0.0%) 
+disp_tris             3584/0            7168/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples       81320/0           81320/0        ( 0.0%) 
+faces                 2091/65536      117096/3670016  ( 3.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1019/65536       57064/3670016  ( 1.6%) 
+facebrushes            188/0             376/0        ( 0.0%) 
+facebrushlists        2091/0            8364/0        ( 0.0%) 
+leaves                1359/65536       43488/2097152  ( 2.1%) 
+leaffaces             2292/65536        4584/131072   ( 3.5%) 
+leafbrushes            929/65536        1858/131072   ( 1.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            13986/512000      55944/2048000  ( 2.7%) 
+edges                 7780/256000      31120/1024000  ( 3.0%) 
+LDR worldlights          9/8192          900/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            151/32768        1510/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2325/65536        4650/131072   ( 3.5%) 
+cubemapsamples           3/1024           48/16384    ( 0.3%) 
+overlays                45/1024        15840/360448   ( 4.4%) 
+LDR lightdata         [variable]     3111804/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       98936/16777216 ( 0.6%) 
+entdata               [variable]       11047/393216   ( 2.8%) 
+LDR ambient table     1359/65536        5436/262144   ( 2.1%) 
+HDR ambient table     1359/65536        5436/262144   ( 2.1%) 
+LDR leaf ambient      7927/65536      221956/1835008  (12.1%) 
+HDR leaf ambient      1359/65536       38052/1835008  ( 2.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/26196    ( 0.0%) 
+pakfile               [variable]     3647510/0        ( 0.0%) 
+physics               [variable]      117603/4194304  ( 2.8%) 
+physics terrain       [variable]        3096/1048576  ( 0.3%) 
+
+Level flags = 7d
+
+Total triangle count: 5746
+Writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp', but we don't own that location. Allowing.
+25 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.vmf
+Map revision 274
+Can't find surfaceprop asphault for material BUILDINGS/BOATHOUSE_SHINGLES01, using default
+Patching WVT material: maps/project_new/nature/infblendgrassdirt001a_wvt_patch
+Patching WVT material: maps/project_new/concrete/hr_c/hr_conc_a_wvt_patch
+Patching WVT material: maps/project_new/nature/blend_oldleavesdirtleaves01_wvt_patch
+Patching WVT material: maps/project_new/concrete/blend_blacktop_05_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+done (0)
+writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (121257 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 522 texinfos to 354
+Reduced 110 texdatas to 96 (3640 bytes to 3226)
+Writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp', but we don't own that location. Allowing.
+2 seconds elapsed
+
+
+
+8 threads
+reading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+reading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.prt
+ 624 portalclusters
+1895 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 12237 visible clusters (0.00%)
+Total clusters visible: 350238
+Average clusters visible: 561
+Building PAS...
+Average clusters audible: 624
+visdatasize:102628  compressed from 99840
+writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+2121 faces
+1792650 square feet [258141728.00 square inches]
+28 Displacements
+31174 Square Feet [4489083.00 Square Inches]
+2121 patches before subdivision
+54909 patches after subdivision
+9 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2758359, max 484
+transfer lists:  21.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(231517, 145659, 109910)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(59930, 21075, 11362)
+Build Patch/Sample Hash Table(s).....Done<0.0192 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   8/1024          384/49152    ( 0.8%) 
+brushes                330/8192         3960/98304    ( 4.0%) 
+brushsides            2166/81920       17328/655360   ( 2.6%) 
+planes                1286/65536       25720/1310720  ( 2.0%) 
+vertexes              3046/65536       36552/786432   ( 4.6%) 
+nodes                 1353/65536       43296/2097152  ( 2.1%) 
+texinfos               354/12288       25488/884736   ( 2.9%) 
+texdata                 96/4096         3072/131072   ( 2.3%) 
+dispinfos               28/0            4928/0        ( 0.0%) 
+disp_verts            2268/0           45360/0        ( 0.0%) 
+disp_tris             3584/0            7168/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples       81320/0           81320/0        ( 0.0%) 
+faces                 2121/65536      118776/3670016  ( 3.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1041/65536       58296/3670016  ( 1.6%) 
+facebrushes            210/0             420/0        ( 0.0%) 
+facebrushlists        2121/0            8484/0        ( 0.0%) 
+leaves                1362/65536       43584/2097152  ( 2.1%) 
+leaffaces             2326/65536        4652/131072   ( 3.5%) 
+leafbrushes            926/65536        1852/131072   ( 1.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            14216/512000      56864/2048000  ( 2.8%) 
+edges                 7952/256000      31808/1024000  ( 3.1%) 
+LDR worldlights          9/8192          900/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            152/32768        1520/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2427/65536        4854/131072   ( 3.7%) 
+cubemapsamples           3/1024           48/16384    ( 0.3%) 
+overlays                47/1024        16544/360448   ( 4.6%) 
+LDR lightdata         [variable]     3125444/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      102628/16777216 ( 0.6%) 
+entdata               [variable]        9836/393216   ( 2.5%) 
+LDR ambient table     1362/65536        5448/262144   ( 2.1%) 
+HDR ambient table     1362/65536        5448/262144   ( 2.1%) 
+LDR leaf ambient      8150/65536      228200/1835008  (12.4%) 
+HDR leaf ambient      1362/65536       38136/1835008  ( 2.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/26918    ( 0.0%) 
+pakfile               [variable]     3700306/0        ( 0.0%) 
+physics               [variable]      121257/4194304  ( 2.9%) 
+physics terrain       [variable]        3096/1048576  ( 0.3%) 
+
+Level flags = 7d
+
+Total triangle count: 5828
+Writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp', but we don't own that location. Allowing.
+28 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.vmf
+Map revision 281
+Can't find surfaceprop asphault for material BUILDINGS/BOATHOUSE_SHINGLES01, using default
+Patching WVT material: maps/project_new/nature/infblendgrassdirt001a_wvt_patch
+Patching WVT material: maps/project_new/concrete/hr_c/hr_conc_a_wvt_patch
+Patching WVT material: maps/project_new/nature/blend_oldleavesdirtleaves01_wvt_patch
+Patching WVT material: maps/project_new/concrete/blend_blacktop_05_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+done (0)
+writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (121633 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 524 texinfos to 353
+Reduced 112 texdatas to 98 (3686 bytes to 3272)
+Writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp', but we don't own that location. Allowing.
+2 seconds elapsed
+
+
+
+8 threads
+reading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+reading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.prt
+ 628 portalclusters
+1917 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 12161 visible clusters (0.00%)
+Total clusters visible: 355376
+Average clusters visible: 565
+Building PAS...
+Average clusters audible: 628
+visdatasize:104540  compressed from 100480
+writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+2110 faces
+1784712 square feet [256998656.00 square inches]
+28 Displacements
+31174 Square Feet [4489083.00 Square Inches]
+2110 patches before subdivision
+53884 patches after subdivision
+9 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2765893, max 486
+transfer lists:  21.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(222096, 141419, 107940)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(53401, 19571, 11063)
+Build Patch/Sample Hash Table(s).....Done<0.0132 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   8/1024          384/49152    ( 0.8%) 
+brushes                331/8192         3972/98304    ( 4.0%) 
+brushsides            2172/81920       17376/655360   ( 2.7%) 
+planes                1284/65536       25680/1310720  ( 2.0%) 
+vertexes              3056/65536       36672/786432   ( 4.7%) 
+nodes                 1361/65536       43552/2097152  ( 2.1%) 
+texinfos               353/12288       25416/884736   ( 2.9%) 
+texdata                 98/4096         3136/131072   ( 2.4%) 
+dispinfos               28/0            4928/0        ( 0.0%) 
+disp_verts            2268/0           45360/0        ( 0.0%) 
+disp_tris             3584/0            7168/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples       81320/0           81320/0        ( 0.0%) 
+faces                 2110/65536      118160/3670016  ( 3.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1035/65536       57960/3670016  ( 1.6%) 
+facebrushes            215/0             430/0        ( 0.0%) 
+facebrushlists        2110/0            8440/0        ( 0.0%) 
+leaves                1370/65536       43840/2097152  ( 2.1%) 
+leaffaces             2316/65536        4632/131072   ( 3.5%) 
+leafbrushes            932/65536        1864/131072   ( 1.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            14147/512000      56588/2048000  ( 2.8%) 
+edges                 7946/256000      31784/1024000  ( 3.1%) 
+LDR worldlights          9/8192          900/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            158/32768        1580/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2547/65536        5094/131072   ( 3.9%) 
+cubemapsamples           3/1024           48/16384    ( 0.3%) 
+overlays                47/1024        16544/360448   ( 4.6%) 
+LDR lightdata         [variable]     3228588/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      104540/16777216 ( 0.6%) 
+entdata               [variable]        9846/393216   ( 2.5%) 
+LDR ambient table     1370/65536        5480/262144   ( 2.1%) 
+HDR ambient table     1370/65536        5480/262144   ( 2.1%) 
+LDR leaf ambient      8200/65536      229600/1835008  (12.5%) 
+HDR leaf ambient      1370/65536       38360/1835008  ( 2.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/27340    ( 0.0%) 
+pakfile               [variable]     3716882/0        ( 0.0%) 
+physics               [variable]      121633/4194304  ( 2.9%) 
+physics terrain       [variable]        3096/1048576  ( 0.3%) 
+
+Level flags = 7d
+
+Total triangle count: 5805
+Writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp', but we don't own that location. Allowing.
+29 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.vmf
+Map revision 299
+Can't find surfaceprop asphault for material BUILDINGS/BOATHOUSE_SHINGLES01, using default
+Patching WVT material: maps/project_new/nature/infblendgrassdirt001a_wvt_patch
+Patching WVT material: maps/project_new/concrete/hr_c/hr_conc_a_wvt_patch
+Patching WVT material: maps/project_new/nature/blend_oldleavesdirtleaves01_wvt_patch
+Patching WVT material: maps/project_new/concrete/blend_blacktop_05_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+done (0)
+writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (123609 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 528 texinfos to 361
+Reduced 116 texdatas to 103 (3750 bytes to 3356)
+Writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp', but we don't own that location. Allowing.
+2 seconds elapsed
+
+
+
+8 threads
+reading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+reading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.prt
+ 633 portalclusters
+1924 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 12428 visible clusters (0.00%)
+Total clusters visible: 361598
+Average clusters visible: 571
+Building PAS...
+Average clusters audible: 633
+visdatasize:106652  compressed from 101280
+writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+2112 faces
+1776068 square feet [255753824.00 square inches]
+28 Displacements
+31174 Square Feet [4489083.00 Square Inches]
+2112 patches before subdivision
+52882 patches after subdivision
+9 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2730175, max 469
+transfer lists:  20.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(213208, 135172, 101873)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(50525, 18330, 10001)
+Build Patch/Sample Hash Table(s).....Done<0.0126 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   8/1024          384/49152    ( 0.8%) 
+brushes                336/8192         4032/98304    ( 4.1%) 
+brushsides            2207/81920       17656/655360   ( 2.7%) 
+planes                1312/65536       26240/1310720  ( 2.0%) 
+vertexes              3078/65536       36936/786432   ( 4.7%) 
+nodes                 1374/65536       43968/2097152  ( 2.1%) 
+texinfos               361/12288       25992/884736   ( 2.9%) 
+texdata                103/4096         3296/131072   ( 2.5%) 
+dispinfos               28/0            4928/0        ( 0.0%) 
+disp_verts            2268/0           45360/0        ( 0.0%) 
+disp_tris             3584/0            7168/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples       81320/0           81320/0        ( 0.0%) 
+faces                 2112/65536      118272/3670016  ( 3.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1042/65536       58352/3670016  ( 1.6%) 
+facebrushes            226/0             452/0        ( 0.0%) 
+facebrushlists        2112/0            8448/0        ( 0.0%) 
+leaves                1383/65536       44256/2097152  ( 2.1%) 
+leaffaces             2333/65536        4666/131072   ( 3.6%) 
+leafbrushes            964/65536        1928/131072   ( 1.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            14187/512000      56748/2048000  ( 2.8%) 
+edges                 7983/256000      31932/1024000  ( 3.1%) 
+LDR worldlights          9/8192          900/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            163/32768        1630/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2622/65536        5244/131072   ( 4.0%) 
+cubemapsamples           4/1024           64/16384    ( 0.4%) 
+overlays                49/1024        17248/360448   ( 4.8%) 
+LDR lightdata         [variable]     3167496/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      106652/16777216 ( 0.6%) 
+entdata               [variable]       11125/393216   ( 2.8%) 
+LDR ambient table     1383/65536        5532/262144   ( 2.1%) 
+HDR ambient table     1383/65536        5532/262144   ( 2.1%) 
+LDR leaf ambient      8305/65536      232540/1835008  (12.7%) 
+HDR leaf ambient      1383/65536       38724/1835008  ( 2.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/29344    ( 0.0%) 
+pakfile               [variable]     3906674/0        ( 0.0%) 
+physics               [variable]      123609/4194304  ( 2.9%) 
+physics terrain       [variable]        3096/1048576  ( 0.3%) 
+
+Level flags = 7d
+
+Total triangle count: 5814
+Writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp', but we don't own that location. Allowing.
+29 seconds elapsed
