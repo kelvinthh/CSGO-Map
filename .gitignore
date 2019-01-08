@@ -1,3 +1,4 @@
 # ignore all bsp and log files
 *.bsp
 *.log
+*.log
