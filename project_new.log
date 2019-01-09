@@ -13112,3 +13112,83 @@ Total triangle count: 7036
 Writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
 MSG_FILEWRITE - Filesystem was asked to write to 'd:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp', but we don't own that location. Allowing.
 3 minutes, 16 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.vmf
+Map revision 515
+Brush 56797: bounds out of range
+Can't find surfaceprop asphault for material BUILDINGS/BOATHOUSE_SHINGLES01, using default
+Patching WVT material: maps/project_new/hr_massive/broken_road_1_blend_4_wvt_patch
+Patching WVT material: maps/project_new/nature/rockwall007b_wvt_patch
+Patching WVT material: maps/project_new/nature/infblendgrassdirt001a_wvt_patch
+Patching WVT material: maps/project_new/concrete/hr_c/hr_conc_a_wvt_patch
+Patching WVT material: maps/project_new/nature/blend_oldleavesdirtleaves01_wvt_patch
+Patching WVT material: maps/project_new/concrete/blend_blacktop_05_wvt_patch
+Patching WVT material: maps/project_new/brick/hr_brick/venice/brick_ground_a_blend_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 80 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+done (0)
+writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (183670 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 887 texinfos to 559
+Reduced 203 texdatas to 175 (7234 bytes to 6303)
+Writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+8 threads
+reading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+reading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.prt
+ 832 portalclusters
+2612 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 29208 visible clusters (0.00%)
+Total clusters visible: 594964
+Average clusters visible: 715
+Building PAS...
+Average clusters audible: 832
+visdatasize:179732  compressed from 173056
+writing d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\plymouthu\project_new.bsp
+2574 faces
+1780167 square feet [256344128.00 square inches]
+24 Displacements
+24132 Square Feet [3475066.75 Square Inches]
+2574 patches before subdivision
+54928 patches after subdivision
+51 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8..
