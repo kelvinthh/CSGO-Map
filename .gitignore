@@ -1,3 +1,10 @@
+<<<<<<< HEAD
 # ignore all bsp files
 *.bsp
 *.log
+=======
+# ignore all bsp and log files
+*.bsp
+*.log
+*.log
+>>>>>>> dev
