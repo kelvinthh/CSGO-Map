@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8075"
-	"mapversion" "700"
+	"mapversion" "701"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "700"
+	"mapversion" "701"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1461,7 +1461,7 @@ world
 		{
 			"id" "13753"
 			"plane" "(-640 512 -64) (-640 -480 -64) (-160 -480 -64)"
-			"material" "BUILDINGS/OFFICE_WALL_BRICK_EDGE"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -1537,7 +1537,7 @@ world
 		{
 			"id" "13759"
 			"plane" "(-640 -480 -64) (-640 -864 -64) (416 -864 -64)"
-			"material" "BUILDINGS/OFFICE_WALL_BRICK_EDGE"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
